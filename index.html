@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Software Developer Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f2eb;
+      color: #34271f;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 65px 20px;
+      text-align: center;
+      background: #49372c;
+      color: #fff8ef;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #fff8ef;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 24px;
+    }
+
+    section {
+      padding: 20px 0;
+    }
+
+    h2 {
+      color: #79563f;
+      font-size: 27px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #e9ded0;
+      padding: 7px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit, minmax(250px, 1fr)
+      );
+      gap: 20px;
+    }
+
+    .project {
+      background: #fff;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #e8ddd1;
+      box-shadow: 0 4px 12px rgba(52, 39, 31, 0.06);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project h3 {
+      color: #49372c;
+      margin-top: 0;
+    }
+
+    .project p {
+      flex-grow: 1;
+    }
+
+    .button {
+      display: inline-block;
+      background: #79563f;
+      color: white;
+      padding: 9px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    .button:hover {
+      background: #49372c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: #49372c;
+      color: #fff8ef;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      main {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Aspiring Software Developer</p>
+    <p>Turning ideas into practical digital solutions.</p>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a B.Sc. Computer Science student interested in
+        software development, web technologies, and creative
+        problem-solving. I enjoy exploring new technologies
+        and building projects to improve my practical skills.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+
+      <div class="skills">
+        <span class="skill">Java</span>
+        <span class="skill">Python</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Express.js</span>
+        <span class="skill">MongoDB</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="projects">
+
+        <article class="project">
+          <h3>Quizmo — Smart Quiz Portal</h3>
+          <p>
+            A quiz platform project designed around online
+            assessments and quiz-related workflows for
+            students and teachers.
+          </p>
+          <p><strong>Technologies:</strong> HTML, CSS,
+            JavaScript, Node.js, Express.js, MongoDB</p>
+          <a class="button"
+             href="YOUR_QUIZMO_GITHUB_URL">
+            View Source Code
+          </a>
+        </article>
+
+        <article class="project">
+          <h3>EkoReturn — E-Waste Pickup</h3>
+          <p>
+            A project focused on e-waste collection,
+            responsible recycling, and a more convenient
+            pickup experience.
+          </p>
+          <p><strong>Technologies:</strong> Add the
+            technologies used in your implementation.</p>
+          <a class="button"
+             href="YOUR_EKORETURN_GITHUB_URL">
+            View Source Code
+          </a>
+        </article>
+
+        <article class="project">
+          <h3>Lokavi — Local Discovery</h3>
+          <p>
+            An India-focused local discovery concept for
+            tourism, local shops, markets, nearby services,
+            and directions.
+          </p>
+          <p><strong>Technologies:</strong> Add your
+            actual project technology stack.</p>
+          <a class="button"
+             href="YOUR_LOKAVI_GITHUB_URL">
+            View Source Code
+          </a>
+        </article>
+
+        <!-- NEW PROJECT 1 -->
+        <article class="project">
+          <h3>DreamSpace — Virtual Interior Designer</h3>
+          <p>
+            A virtual interior design project that aims to
+            help users explore room design ideas, arrange
+            furniture, and visualize their dream spaces.
+          </p>
+          <p><strong>Technologies:</strong> Add the
+            technologies used in your DreamSpace project.</p>
+          <a class="button"
+             href="YOUR_DREAMSPACE_GITHUB_URL">
+            View Source Code
+          </a>
+        </article>
+
+        <!-- NEW PROJECT 2 -->
+        <article class="project">
+          <h3>Hand Distance Measurement Game</h3>
+          <p>
+            An interactive game concept that explores
+            measuring hand distance using a camera and
+            visual feedback. Update this description to
+            match your actual implementation.
+          </p>
+          <p><strong>Technologies:</strong> Add your
+            actual languages, libraries, and tools.</p>
+          <a class="button"
+             href="YOUR_HAND_GAME_GITHUB_URL">
+            View Source Code
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+      </p>
+      <p>
+        <a href="YOUR_LINKEDIN_URL">LinkedIn</a> |
+        <a href="YOUR_GITHUB_PROFILE_URL">GitHub Profile</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name | Developer Portfolio</p>
+  </footer>
+
+</body>
+</html>
